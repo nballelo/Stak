@@ -9,7 +9,7 @@ public class StackImpl<E>  implements  Stack<E> {
     E[] elements;
 
     public StackImpl(int longitud) {
-        this.elements= (E[])new Object[longitud];
+        elements= (E[])new Object[longitud];
     }
     public int size() {
         return this.size;
