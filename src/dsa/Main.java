@@ -2,7 +2,7 @@ package dsa;
 
 public class Main {
 
-    public static void main(String[] args) throws FullStack,EmptyStack{
+    public static void main(String[] args){
 	Stack<Integer> a =new StackImpl<>(10);
 	int z;
     try{
