@@ -3,7 +3,7 @@ package dsa;
 public class Main {
 
     public static void main(String[] args){
-	Stack<Integer> a =new StackImpl<>(10);
+	Stack<Integer> a =new StackImpl<>(7);
 	int z;
     try{
         a.push(5);
@@ -14,8 +14,14 @@ public class Main {
         a.push(5);
         a.push(5);
         a.push(5);
-        z=a.pop();
-        System.out.println(z);
+        System.out.println(a.pop());
+        System.out.println(a.pop());
+        System.out.println(a.pop());
+        System.out.println(a.pop());
+        System.out.println(a.pop());
+        System.out.println(a.pop());
+        System.out.println(a.pop());
+        System.out.println(a.pop());
     }
     catch (FullStack e)
     {
